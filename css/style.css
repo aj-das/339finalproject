@@ -139,6 +139,23 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.profilepicture:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.profilepicture img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.profilepicture:hover img {
+    transform: scale(1.1);
 }
 
 .hero-image {
