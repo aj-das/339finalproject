@@ -41,8 +41,8 @@ header {
 nav {
     height: 80px;
     background: linear-gradient(rgba(255, 203, 5, 0.6), rgba(255, 203, 5, 0.6));
-    display: flex;
     padding: 0 6%;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
@@ -56,23 +56,6 @@ nav {
     display: inline-block;
     padding: 8px 12px 8px 12px;
     position: relative;
-}
-
-.nav-links ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    left: 0;
-    background: #ffb700;
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    transition: width 0.5s, left 0.5s;
-    transform: translateX(-50%);
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
 }
 
 .nav-links ul li a {

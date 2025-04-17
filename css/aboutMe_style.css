@@ -7,8 +7,7 @@ body {
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 39, 76, 0.6), rgba(0, 39, 76, 0.6)),
-        url('/images/northcampus.jpg');
+    background-image: linear-gradient(rgba(0, 39, 76, 0.8), rgba(0, 39, 76, 0.8)), url('/images/northcampus.jpg');
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -58,23 +57,6 @@ nav {
     display: inline-block;
     padding: 8px 12px 8px 12px;
     position: relative;
-}
-
-.nav-links ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    left: 0;
-    background: #ffb700;
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    transition: width 0.5s, left 0.5s;
-    transform: translateX(-50%);
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
 }
 
 .nav-links ul li a {
